@@ -1,6 +1,112 @@
-header{
-    background: green;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-footer{
+
+
+h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2{
+    font: bold 14px sans-serif;
+}
+
+
+
+header, footer, aside, nav, article, hgroup{
+    /* border: 1px solid black; */
+    display: block;
+}
+
+
+body{
+    text-align: center;
+}
+
+.agrupar{
     
+    width: 960px;
+    margin: 15px auto;     /*y,x   es el espacioadp por fuera*/ 
+    /* margin-top: 200px; */
+    padding: 100px;     /* es el margen por dentro */
+
+}
+
+
+.cabecera{
+    background-color: #fffbb9;
+    border: 1px #999999;
+    padding: 20px;
+}
+
+.menu{
+    background: #ccc;
+    padding: 5px 25px;
+    text-align: left;
+}
+
+.cabecera h1{
+    text-align: left;
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+    align-content: left;
+}
+
+.seccion{
+    /* border: 1px black solid; */
+    margin-top: 20px;
+    width: 600px;
+    float: left;
+    }
+
+
+
+article{
+    background-color: #fffbcc;
+    border: 1px solid #999;
+    padding: 20px;
+
+    margin-bottom: 15px;
+}
+
+article footer{
+    text-align:right;
+    margin-top: 20px;
+}
+.columna{
+    width:300px;
+    float: right;
+    margin: 20px 0;
+
+}
+
+
+.columna blockquote{
+    border: solid black 1px;
+    padding: 40px;
+    background-color: #fffbcc;
+    margin: 0 20px;
+}
+time{
+    color: #999
+}
+.pie{
+    clear: both;
+    padding: 20px;
+    background: #2d3436;
+    color: #ffffff;
+}
+
+img{
+    width: 300px;
+    display: block;
+    margin: 20px auto;
 }
