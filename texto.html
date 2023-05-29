@@ -7,46 +7,102 @@
         <meta name="descripcion de sitio web" content="Esta es mi primer página web" />
         <meta name="author" content="Antony" />
         <meta name="keywords" content="Mi primer título, mi primer página web" />
+        <link rel = "stylesheet" href="estilos.css">
+        <style>
+            #cabecera {                
+                background: red;
+            }
+            footer{
+                background: green
+            }
+
+            green{
+
+                background: green;
+            }
+/* 
+            *{
+
+                background: green;
+            } */
+
+            blockquote[cite]{
+                background: red;
+            
+            }
+
+
+
+
+        </style>
     </head>
     <body>
         
-        <header>
+        <header id="cabecera">
             <h1>Mi blog</h1>
         </header>
-        <nav>
+
+        <nav id = "navegacion">
             <ul>
                 <li>Principal</li>
                 <li>ayuda</li>
                 <li>contacto</li> 
             </ul>
+
         </nav>
+           
         <section>
-            <article>
-                <h1>Título del segundo artículo</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate ipsa voluptatem saepe aut possimus ea aliquam voluptatibus labore, iusto, adipisci dolores dolore nisi quos fugiat ad, reiciendis excepturi vitae! Assumenda!</p>
+            <article id="cabecera">
+                <hgroup>
+                    <h1>Titulo del primer articulo</h1>
+                    <h2>Subtitulo del primer articulo</h2>                
+                <time datetime = "12-10-2018"> Publicado 12-10-2022 </time>
+                <p class="green">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam vel qui nobis inventore hic! Totam vel quasi ipsum, itaque rerum omnis nisi nobis perferendis voluptatem repudiandae quae reprehenderit temporibus! Non.</p>
+                <footer style="background: green">
+                    <p>Comentarios (10)</p>
 
 
-            </article>
-            
-
-
-            <article>
-                <h1>Título de segundo </h1>
-                <time ></time>
-                <p>Título de segundo artculo</p>
-
-                
+                </footer>
             </article>
 
-
+            <article>
+                <hgroup>
+                    <h1>Titulo del segundo articulo</h1>
+                    <h2>Subtitulo del segundo articulo</h2>
+                </hgroup>
+               
+                <time datetime = "12-10-2018"> Publicado 12-10-2022 </time>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <small>Dolore veniam laudantium sint, repudiandae ut illo,</small> nulla laboriosam aperiam labore temporibus distinctio sit similique unde aspernatur, <cite>officiis voluptatum nemo sunt qui</cite></p>
+                <img src="images/Logo.png">
+                <footer>
+                    <p>Comentarios (0)</p>
+                </footer>
+                <address>
+                    <a href="http://www.google.com.ec">Visita google  </a>
+                </address>
+            </article>
         </section>
+
+
+        <aside>
+            <blockquote cite="www.google.com">
+                Mensaje 1
+            </blockquote>
+
+            <blockquote cite="www.controliq.com.ec">
+                Mensaje 2                
+            </blockquote>
+
+
+            Acerca de
+        </aside>
+
+        <footer>
+            Derechos reservados 2010-2023
+
+
+        </footer>
         
-        
-        <ul></ul>
-        <p>mi primer parrafo de html</p>
-        
-        <h2>subítulo del texto</h2>
-       
     </body>
 </html>
 
